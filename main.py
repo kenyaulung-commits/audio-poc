@@ -1,4 +1,5 @@
 import flet as ft
+from flet import app
 
 def main(page: ft.Page):
     page.title = "Audio PoC"
@@ -23,4 +24,5 @@ def main(page: ft.Page):
         )
     )
 
-ft.app(target=main, assets_dir="assets")
+if __name__ == "__main__":
+    app(target=main, assets_dir="assets")
