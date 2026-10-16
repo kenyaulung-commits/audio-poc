@@ -1,5 +1,5 @@
 import flet as ft
-from flet.app.app import app
+from flet.app import app
 
 def main(page: ft.Page):
     page.title = "Audio PoC"
